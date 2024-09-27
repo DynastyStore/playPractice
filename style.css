@@ -56,14 +56,23 @@ body {
 .slider-container {
     position: absolute;
     left: calc(50% - 150px);
-    top: calc(50% + 220px); /* Ajusta esto para colocar el slider debajo del tablero */
+    top: calc(50% + 220px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white; /* Para que el texto del slider sea visible */
+    color: white; 
 }
 
 input[type="range"] {
-    width: 300px; /* Ajusta el ancho del slider */
-    margin-top: 10px; /* Espacio entre el label y el slider */
+    width: 300px; 
+    margin-top: 10px; 
+}
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px; 
+    color: white;   
+    font-size: 14px; 
+    z-index: 1000;   
 }
